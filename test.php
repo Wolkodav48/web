@@ -1,2 +1,6 @@
 <?php
-echo "Hello world";
+$a = ['Петер', 'Николай', 'Илья'];
+for ($n = 0; $n < count($a); $n++)
+{
+    echo $n +1 . '. ' . $a[$n] . "<br>";
+}
